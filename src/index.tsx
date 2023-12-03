@@ -13,11 +13,6 @@ const root = ReactDOM.createRoot(
 
 const store = createStore(rootReducer);
 
-store.dispatch({
-  type: "ADD_TODO",
-  text: "USE REDUXT"
-})
-
 console.log('store.getState', store.getState());
 
 const render = () => root.render(
